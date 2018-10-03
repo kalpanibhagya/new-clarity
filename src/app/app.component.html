@@ -1,14 +1,98 @@
-<clr-main-container>
-  <div class="content-container">
-    <main class="content-area">
-      <h1>Hello world!</h1>
-      <clr-alert>
-        <div clr-alert-item class="alert-item">
-          <span class="alert-text">
-            We can now use Clarity!
-          </span>
-        </div>
-      </clr-alert>
-    </main>
+<div class="main-container">
+  <div class="alert alert-app-level">
+      
   </div>
-</clr-main-container>
+  <header class="header-6">
+    <div class="branding">
+      <a href="..." class="nav-link">
+        <clr-icon shape="calculator"></clr-icon>
+        <span class="title">Portfolio</span>
+      </a>
+    </div>
+    <div class="header-nav">
+        <a href="javascript://" class="active nav-link nav-text">Dashboard</a>
+        <a href="javascript://" class="nav-link nav-text">Interactive Analytics</a>
+    </div>
+    <div class="header-actions">
+        <a href="javascript://" class="nav-link nav-icon">
+            <clr-icon shape="cog"></clr-icon>
+        </a>
+    </div>
+  </header>
+  <nav class="subnav">
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Dashboard</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Management</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Cloud</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Tenants</a>
+        </li>
+    </ul>
+  </nav>
+  <div class="content-container">
+      <div class="content-area">
+        <div class="alert alert-danger">
+          <div class="alert-items">
+              <div class="alert-item static">
+                  <div class="alert-icon-wrapper">
+                      <clr-icon class="alert-icon" shape="exclamation-circle"></clr-icon>
+                  </div>
+                  <span class="alert-text">
+                      This alert is at the top of the page.
+                  </span>
+              </div>
+        </div>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="alert alert-success">
+          <div class="alert-items">
+              <div class="alert-item static">
+                  <div class="alert-icon-wrapper">
+                      <clr-icon class="alert-icon" shape="check-circle"></clr-icon>
+                  </div>
+                  <span class="alert-text">
+                      This alert is in the middle of the page.
+                  </span>
+              </div>
+          </div>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <nav class="sidenav">
+        <section class="sidenav-content">
+            <a href="..." class="nav-link active">
+                Nav Element 1
+            </a>
+            <a href="..." class="nav-link">
+                Nav Element 2
+            </a>
+            <section class="nav-group collapsible">
+                <input id="tabexample1" type="checkbox">
+                <label for="tabexample1">Collapsible Nav Element</label>
+                <ul class="nav-list">
+                    <li><a class="nav-link">Link 1</a></li>
+                    <li><a class="nav-link">Link 2</a></li>
+                </ul>
+            </section>
+            <section class="nav-group">
+                <input id="tabexample2" type="checkbox">
+                <label for="tabexample2">Default Nav Element</label>
+                <ul class="nav-list">
+                    <li><a class="nav-link">Link 1</a></li>
+                    <li><a class="nav-link">Link 2</a></li>
+                    <li><a class="nav-link active">Link 3</a></li>
+                    <li><a class="nav-link">Link 4</a></li>
+                    <li><a class="nav-link">Link 5</a></li>
+                    <li><a class="nav-link">Link 6</a></li>
+                </ul>
+            </section>
+        </section>
+      </nav>
+  </div>
+</div>
